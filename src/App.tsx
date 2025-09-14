@@ -52,7 +52,7 @@ export default function App() {
       .slice(0, 4);
   };
 
-  const allArticles = [featuredArticle, ...newsArticles];
+ // const allArticles = [featuredArticle, ...newsArticles];
 
   return (
     <div className="min-h-screen flex flex-col">
